@@ -69,15 +69,16 @@
         return nil;
     
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 34)];
-    view.backgroundColor = [UIColor colorWithRed:167/255.0f green:167/255.0f blue:167/255.0f alpha:0.6f];
     
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 8, 0, 0)];
-    label.text = @"Friends Online";
-    label.font = [UIFont systemFontOfSize:15];
-    label.textColor = [UIColor whiteColor];
-    label.backgroundColor = [UIColor clearColor];
-    [label sizeToFit];
-    [view addSubview:label];
+//    view.backgroundColor = [UIColor colorWithRed:167/255.0f green:167/255.0f blue:167/255.0f alpha:0.6f];
+//    
+//    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 8, 0, 0)];
+//    label.text = @"Friends Online";
+//    label.font = [UIFont systemFontOfSize:15];
+//    label.textColor = [UIColor whiteColor];
+//    label.backgroundColor = [UIColor clearColor];
+//    [label sizeToFit];
+//    [view addSubview:label];
     
     return view;
 }
@@ -121,7 +122,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)sectionIndex
 {
-    return 3;
+    return 7;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -135,12 +136,14 @@
     }
     
     if (indexPath.section == 0) {
-        NSArray *titles = @[@"Home", @"Profile", @"Chats"];
-        cell.textLabel.text = titles[indexPath.row];
-    } else {
-        NSArray *titles = @[@"John Appleseed", @"John Doe", @"Test User"];
+        NSArray *titles = @[@"DashBoard", @"Target", @"Health Data", @"Connect", @"Rewards", @"Profile", @"Manage Device"];
         cell.textLabel.text = titles[indexPath.row];
     }
+    
+//    else {
+//        NSArray *titles = @[@"John Appleseed", @"John Doe", @"Test User"];
+//        cell.textLabel.text = titles[indexPath.row];
+//    }
     
     return cell;
 }
