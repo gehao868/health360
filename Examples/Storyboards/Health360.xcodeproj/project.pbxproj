@@ -32,6 +32,8 @@
 		3032B8EA1805A4BF00064F85 /* DEMOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8E91805A4BF00064F85 /* DEMOSecondViewController.m */; };
 		3032B8FD1805AB5600064F85 /* avatar@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3032B8FC1805AB5600064F85 /* avatar@2x.jpg */; };
 		3032B9001805BC8E00064F85 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8FF1805BC8E00064F85 /* RECommonFunctions.m */; };
+		7CFAB34A197DBF5600CDF260 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFAB349197DBF5600CDF260 /* DeviceViewController.m */; };
+		7CFAB34D197DCD9900CDF260 /* AppsDevicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFAB34C197DCD9900CDF260 /* AppsDevicesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,10 @@
 		3032B8FC1805AB5600064F85 /* avatar@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avatar@2x.jpg"; sourceTree = "<group>"; };
 		3032B8FE1805BC8E00064F85 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
 		3032B8FF1805BC8E00064F85 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		7CFAB348197DBF5600CDF260 /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
+		7CFAB349197DBF5600CDF260 /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		7CFAB34B197DCD9900CDF260 /* AppsDevicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsDevicesViewController.h; sourceTree = "<group>"; };
+		7CFAB34C197DCD9900CDF260 /* AppsDevicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppsDevicesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +224,10 @@
 				3032B8E61805A26500064F85 /* DEMONavigationController.m */,
 				3032B8E81805A4BF00064F85 /* DEMOSecondViewController.h */,
 				3032B8E91805A4BF00064F85 /* DEMOSecondViewController.m */,
+				7CFAB348197DBF5600CDF260 /* DeviceViewController.h */,
+				7CFAB349197DBF5600CDF260 /* DeviceViewController.m */,
+				7CFAB34B197DCD9900CDF260 /* AppsDevicesViewController.h */,
+				7CFAB34C197DCD9900CDF260 /* AppsDevicesViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -330,9 +340,11 @@
 				3032B8EA1805A4BF00064F85 /* DEMOSecondViewController.m in Sources */,
 				3032B8E21805A21600064F85 /* UIImage+REFrostedViewController.m in Sources */,
 				3032B8D11805A1D200064F85 /* DEMOMenuViewController.m in Sources */,
+				7CFAB34D197DCD9900CDF260 /* AppsDevicesViewController.m in Sources */,
 				3032B8A31805A10100064F85 /* DEMOAppDelegate.m in Sources */,
 				3032B8E41805A21600064F85 /* UIViewController+REFrostedViewController.m in Sources */,
 				3032B8E01805A21600064F85 /* REFrostedContainerViewController.m in Sources */,
+				7CFAB34A197DBF5600CDF260 /* DeviceViewController.m in Sources */,
 				3032B8E71805A26500064F85 /* DEMONavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

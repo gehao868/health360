@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--Root View Controller-->
@@ -20,7 +20,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="431" y="298"/>
+            <point key="canvasLocation" x="-677" y="-38"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jO9-85-nrD">
@@ -36,11 +36,12 @@
                     <connections>
                         <segue destination="jsP-Dz-DYG" kind="relationship" relationship="rootViewController" id="LUF-1Q-jf3"/>
                         <segue destination="yGP-ij-jME" kind="push" identifier="Second" id="fOf-2J-bLN"/>
+                        <segue destination="o5Y-rG-uv8" kind="push" id="JpW-yR-Yxf"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zzD-df-7on" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="923" y="298"/>
+            <point key="canvasLocation" x="-185" y="-38"/>
         </scene>
         <!--Home View Controller - Home Controller-->
         <scene sceneID="4d1-Jz-tGk">
@@ -70,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Awc-v8-Z61" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1470" y="298"/>
+            <point key="canvasLocation" x="362" y="-38"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="QYK-Xf-W03">
@@ -98,7 +99,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5la-pB-NuB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="930" y="989"/>
+            <point key="canvasLocation" x="-178" y="653"/>
         </scene>
         <!--Second View Controller - Second Controller-->
         <scene sceneID="ajy-0O-wjT">
@@ -123,7 +124,91 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SBM-yN-hYn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1470" y="979"/>
+            <point key="canvasLocation" x="362" y="643"/>
+        </scene>
+        <!--Device View Controller - Manage Device-->
+        <scene sceneID="l2S-pE-PqJ">
+            <objects>
+                <viewController storyboardIdentifier="deviceController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="o5Y-rG-uv8" customClass="DeviceViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fXE-Lj-LsN"/>
+                        <viewControllerLayoutGuide type="bottom" id="VKG-be-KRY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XKP-t9-f7u">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Manage Device" id="NBs-h8-5gh">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="dTY-wI-YRX">
+                            <connections>
+                                <action selector="showMenu:" destination="o5Y-rG-uv8" id="Gok-82-deB"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="Z3R-gE-Oda">
+                            <connections>
+                                <segue destination="g34-uL-rNx" kind="push" id="Ku0-WV-tTt"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PfV-9q-9n2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="362" y="1447"/>
+        </scene>
+        <!--Apps Devices View Controller - Apps & Devices-->
+        <scene sceneID="hcd-kM-Xdi">
+            <objects>
+                <viewController id="g34-uL-rNx" customClass="AppsDevicesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OUz-7q-ksX"/>
+                        <viewControllerLayoutGuide type="bottom" id="chm-eV-ZQa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tFp-6C-hhy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8YN-iz-wh1">
+                                <rect key="frame" x="130" y="157" width="35" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Fitbit">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fibitAction:" destination="g34-uL-rNx" eventType="touchUpInside" id="yFo-Sp-oLR"/>
+                                    <segue destination="856-R5-2id" kind="push" id="UFa-SG-C3F"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Apps &amp; Devices" id="lKD-D9-jlv"/>
+                    <connections>
+                        <outlet property="fibitbutton" destination="8YN-iz-wh1" id="gRG-Po-5Wb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0bH-Av-nvb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="738" y="1447"/>
+        </scene>
+        <!--View Controller - Fitbit-->
+        <scene sceneID="vIK-bd-swi">
+            <objects>
+                <viewController id="856-R5-2id" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZPw-jr-Vag"/>
+                        <viewControllerLayoutGuide type="bottom" id="ms8-vq-lLA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sqg-Ua-aej">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Fitbit" id="rVb-Xu-AK4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vg9-Lc-5h5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1215" y="1447"/>
         </scene>
     </scenes>
     <resources>
