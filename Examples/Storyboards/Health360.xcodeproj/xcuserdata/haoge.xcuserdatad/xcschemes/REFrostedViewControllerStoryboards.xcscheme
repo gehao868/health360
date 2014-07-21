@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3032B88E1805A10100064F85"
-               BuildableName = "REFrostedViewControllerStoryboards.app"
+               BuildableName = "Health360.app"
                BlueprintName = "Health360"
                ReferencedContainer = "container:Health360.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3032B8AF1805A10100064F85"
-               BuildableName = "REFrostedViewControllerStoryboardsTests.xctest"
+               BuildableName = "Health360Tests.xctest"
                BlueprintName = "Health360Tests"
                ReferencedContainer = "container:Health360.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3032B88E1805A10100064F85"
-            BuildableName = "REFrostedViewControllerStoryboards.app"
+            BuildableName = "Health360.app"
             BlueprintName = "Health360"
             ReferencedContainer = "container:Health360.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3032B88E1805A10100064F85"
-            BuildableName = "REFrostedViewControllerStoryboards.app"
+            BuildableName = "Health360.app"
             BlueprintName = "Health360"
             ReferencedContainer = "container:Health360.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3032B88E1805A10100064F85"
-            BuildableName = "REFrostedViewControllerStoryboards.app"
+            BuildableName = "Health360.app"
             BlueprintName = "Health360"
             ReferencedContainer = "container:Health360.xcodeproj">
          </BuildableReference>
