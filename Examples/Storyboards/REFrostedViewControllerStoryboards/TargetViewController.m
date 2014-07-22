@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Roman Efimov. All rights reserved.
 //
 
-#import "DEMOSecondViewController.h"
+#import "TargetViewController.h"
 
-@interface DEMOSecondViewController ()
+@interface TargetViewController ()
 
 @end
 
-@implementation DEMOSecondViewController
+@implementation TargetViewController
 
 - (IBAction)showMenu
 {

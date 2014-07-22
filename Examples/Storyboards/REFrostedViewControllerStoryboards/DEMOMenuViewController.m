@@ -7,10 +7,17 @@
 //
 
 #import "DEMOMenuViewController.h"
+
 #import "DEMOHomeViewController.h"
-#import "DEMOSecondViewController.h"
+#import "TargetViewController.h"
 #import "DeviceViewController.h"
+#import "HealthDataViewController.h"
+#import "ConnectViewController.h"
+#import "RewardViewController.h"
+#import "ProfileViewController.h"
+
 #import "UIViewController+REFrostedViewController.h"
+
 
 @interface DEMOMenuViewController ()
 
@@ -100,12 +107,24 @@
     if (indexPath.section == 0 && indexPath.row == 0) {
         DEMOHomeViewController *homeViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"homeController"];
         navigationController.viewControllers = @[homeViewController];
+    } else if(indexPath.section == 0 && indexPath.row == 1) {
+        TargetViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"secondController"];
+        navigationController.viewControllers = @[secondViewController];
+    } else if(indexPath.section == 0 && indexPath.row == 2) {
+        HealthDataViewController *healthController = [self.storyboard instantiateViewControllerWithIdentifier:@"healthController"];
+        navigationController.viewControllers = @[healthController];
+    } else if(indexPath.section == 0 && indexPath.row == 3) {
+        ConnectViewController *connectController = [self.storyboard instantiateViewControllerWithIdentifier:@"connectController"];
+        navigationController.viewControllers = @[connectController];
+    } else if(indexPath.section == 0 && indexPath.row == 4) {
+        RewardViewController *rewardController = [self.storyboard instantiateViewControllerWithIdentifier:@"rewardController"];
+        navigationController.viewControllers = @[rewardController];
+    } else if(indexPath.section == 0 && indexPath.row == 5) {
+        ProfileViewController *profileController = [self.storyboard instantiateViewControllerWithIdentifier:@"profileController"];
+        navigationController.viewControllers = @[profileController];
     } else if(indexPath.section == 0 && indexPath.row == 6) {
         DeviceViewController *deviceController = [self.storyboard instantiateViewControllerWithIdentifier:@"deviceController"];
         navigationController.viewControllers = @[deviceController];
-    } else {
-        DEMOSecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"secondController"];
-        navigationController.viewControllers = @[secondViewController];
     }
     
     [self.frostedViewController hideMenuViewController];
@@ -121,7 +140,7 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 2;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)sectionIndex

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "REFrostedViewController.h"
 
-@interface DEMOSecondViewController : UIViewController
+@interface TargetViewController : UIViewController
 
 - (IBAction)showMenu;
 
