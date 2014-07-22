@@ -1,24 +1,18 @@
 //
-//  DEMOViewController.m
+//  DEMOHomeViewController.m
 //  REFrostedViewControllerStoryboards
 //
 //  Created by Roman Efimov on 10/9/13.
 //  Copyright (c) 2013 Roman Efimov. All rights reserved.
 //
 
-#import "DEMORootViewController.h"
+#import "DashBoardViewController.h"
 
-@interface DEMORootViewController ()
+@interface DashBoardViewController ()
 
 @end
 
-@implementation DEMORootViewController
-
-- (void)awakeFromNib
-{
-    self.contentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"contentController"];
-    self.menuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"menuController"];
-}
+@implementation DashBoardViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,7 +25,7 @@
 
 - (void)viewDidLoad
 {
-    
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:70.0f/255.0f green:160.0f/255.0f blue:100.0f/255.0f alpha:1.0f];
     [super viewDidLoad];
     
 }
@@ -42,6 +36,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)showMenu
+{
+    [self.frostedViewController presentMenuViewController];
+}
 
-//
 @end
+

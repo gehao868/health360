@@ -21,7 +21,7 @@
 		3032B8B41805A10100064F85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032B8961805A10100064F85 /* UIKit.framework */; };
 		3032B8BC1805A10100064F85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3032B8BA1805A10100064F85 /* InfoPlist.strings */; };
 		3032B8BE1805A10100064F85 /* REFrostedViewControllerStoryboardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8BD1805A10100064F85 /* REFrostedViewControllerStoryboardsTests.m */; };
-		3032B8CE1805A1BC00064F85 /* DEMOHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8CD1805A1BC00064F85 /* DEMOHomeViewController.m */; };
+		3032B8CE1805A1BC00064F85 /* DashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8CD1805A1BC00064F85 /* DashBoardViewController.m */; };
 		3032B8D11805A1D200064F85 /* DEMOMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8D01805A1D200064F85 /* DEMOMenuViewController.m */; };
 		3032B8E01805A21600064F85 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8D71805A21600064F85 /* REFrostedContainerViewController.m */; };
 		3032B8E11805A21600064F85 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8D91805A21600064F85 /* REFrostedViewController.m */; };
@@ -70,8 +70,8 @@
 		3032B8B91805A10100064F85 /* REFrostedViewControllerStoryboardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "REFrostedViewControllerStoryboardsTests-Info.plist"; sourceTree = "<group>"; };
 		3032B8BB1805A10100064F85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3032B8BD1805A10100064F85 /* REFrostedViewControllerStoryboardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewControllerStoryboardsTests.m; sourceTree = "<group>"; };
-		3032B8CC1805A1BC00064F85 /* DEMOHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOHomeViewController.h; sourceTree = "<group>"; };
-		3032B8CD1805A1BC00064F85 /* DEMOHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOHomeViewController.m; sourceTree = "<group>"; };
+		3032B8CC1805A1BC00064F85 /* DashBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoardViewController.h; sourceTree = "<group>"; };
+		3032B8CD1805A1BC00064F85 /* DashBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoardViewController.m; sourceTree = "<group>"; };
 		3032B8CF1805A1D200064F85 /* DEMOMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOMenuViewController.h; sourceTree = "<group>"; };
 		3032B8D01805A1D200064F85 /* DEMOMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOMenuViewController.m; sourceTree = "<group>"; };
 		3032B8D61805A21600064F85 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = "<group>"; };
@@ -228,8 +228,8 @@
 			children = (
 				3032B8A71805A10100064F85 /* DEMORootViewController.h */,
 				3032B8A81805A10100064F85 /* DEMORootViewController.m */,
-				3032B8CC1805A1BC00064F85 /* DEMOHomeViewController.h */,
-				3032B8CD1805A1BC00064F85 /* DEMOHomeViewController.m */,
+				3032B8CC1805A1BC00064F85 /* DashBoardViewController.h */,
+				3032B8CD1805A1BC00064F85 /* DashBoardViewController.m */,
 				3032B8CF1805A1D200064F85 /* DEMOMenuViewController.h */,
 				3032B8D01805A1D200064F85 /* DEMOMenuViewController.m */,
 				3032B8E51805A26500064F85 /* DEMONavigationController.h */,
@@ -351,7 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3032B8CE1805A1BC00064F85 /* DEMOHomeViewController.m in Sources */,
+				3032B8CE1805A1BC00064F85 /* DashBoardViewController.m in Sources */,
 				3032B8E11805A21600064F85 /* REFrostedViewController.m in Sources */,
 				3032B9001805BC8E00064F85 /* RECommonFunctions.m in Sources */,
 				7CFAB359197DEFBE00CDF260 /* ProfileViewController.m in Sources */,

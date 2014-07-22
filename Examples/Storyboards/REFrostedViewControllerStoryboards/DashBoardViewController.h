@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "REFrostedViewController.h"
 
-@interface DEMOHomeViewController : UIViewController
+@interface DashBoardViewController : UIViewController
 
 - (IBAction)showMenu;
 

@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "REFrostedViewController.h"
 
 @interface HealthDataViewController : UIViewController
+- (IBAction)showMenu:(id)sender;
 
 @end

@@ -46,4 +46,7 @@
 }
 */
 
+- (IBAction)showMenu:(id)sender {
+    [self.frostedViewController presentMenuViewController];
+}
 @end

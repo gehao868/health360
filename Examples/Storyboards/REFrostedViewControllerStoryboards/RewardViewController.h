@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "REFrostedViewController.h"
 
 @interface RewardViewController : UIViewController
+- (IBAction)showMenu:(id)sender;
 
 @end

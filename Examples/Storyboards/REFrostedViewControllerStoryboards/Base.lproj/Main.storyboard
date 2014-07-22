@@ -9,8 +9,8 @@
             <objects>
                 <viewController storyboardIdentifier="rootController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vXZ-lx-hvc" customClass="DEMORootViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Hd2-Gn-yG1"/>
-                        <viewControllerLayoutGuide type="bottom" id="uRW-ay-hRF"/>
+                        <viewControllerLayoutGuide type="top" id="5Tx-Cg-Lzd"/>
+                        <viewControllerLayoutGuide type="bottom" id="9k6-u3-TDA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -47,20 +47,20 @@
             </objects>
             <point key="canvasLocation" x="-1361" y="1890"/>
         </scene>
-        <!--Home View Controller - Dash Board-->
+        <!--Dash Board View Controller - Dash Board-->
         <scene sceneID="4d1-Jz-tGk">
             <objects>
-                <viewController storyboardIdentifier="homeController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jsP-Dz-DYG" customClass="DEMOHomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="homeController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jsP-Dz-DYG" customClass="DashBoardViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xlu-DO-MyB"/>
-                        <viewControllerLayoutGuide type="bottom" id="bit-6w-mne"/>
+                        <viewControllerLayoutGuide type="top" id="KT0-v7-yQs"/>
+                        <viewControllerLayoutGuide type="bottom" id="FPK-aG-ACx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NKZ-RZ-CBv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </view>
                     <navigationItem key="navigationItem" title="Dash Board" id="HIf-bS-REK">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="SZg-Pf-I50">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="SZg-Pf-I50">
                             <connections>
                                 <action selector="showMenu" destination="jsP-Dz-DYG" id="Fp7-R0-lXj"/>
                             </connections>
@@ -97,23 +97,22 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5la-pB-NuB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1354" y="2581"/>
+            <point key="canvasLocation" x="-1366" y="2585"/>
         </scene>
         <!--Target View Controller - Target-->
         <scene sceneID="ajy-0O-wjT">
             <objects>
                 <viewController restorationIdentifier="secondController" storyboardIdentifier="secondController" id="yGP-ij-jME" customClass="TargetViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jey-hc-MDe"/>
-                        <viewControllerLayoutGuide type="bottom" id="IhS-Kp-4Ur"/>
+                        <viewControllerLayoutGuide type="top" id="VZK-f4-1g7"/>
+                        <viewControllerLayoutGuide type="bottom" id="106-eZ-5pe"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zr4-Ue-MTR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="0.7902456898061645" blue="0.39722655648262306" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Target" id="8VR-6H-mGr">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="3gh-ed-0Ek">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="3gh-ed-0Ek">
                             <connections>
                                 <action selector="showMenu" destination="yGP-ij-jME" id="ZoY-gJ-XvS"/>
                             </connections>
@@ -129,15 +128,21 @@
             <objects>
                 <viewController storyboardIdentifier="healthController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0rR-Kx-Bwz" customClass="HealthDataViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Rru-tv-Bet"/>
-                        <viewControllerLayoutGuide type="bottom" id="z8B-FB-Pex"/>
+                        <viewControllerLayoutGuide type="top" id="inE-VY-A7d"/>
+                        <viewControllerLayoutGuide type="bottom" id="MNG-1R-aSl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="11a-Di-TOw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Health Data" id="TDi-dS-bAJ"/>
+                    <navigationItem key="navigationItem" title="Health Data" id="Qtu-zg-uPu">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="nib-Lh-kwr">
+                            <connections>
+                                <action selector="showMenu:" destination="0rR-Kx-Bwz" id="gFG-BL-kXf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="03V-QI-Bqj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -148,15 +153,21 @@
             <objects>
                 <viewController storyboardIdentifier="connectController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OSV-Jl-5cM" customClass="ConnectViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Maj-5j-hTZ"/>
-                        <viewControllerLayoutGuide type="bottom" id="ZIx-fC-vRD"/>
+                        <viewControllerLayoutGuide type="top" id="Gp2-iD-kNT"/>
+                        <viewControllerLayoutGuide type="bottom" id="zdG-vv-0uP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="SOc-tn-fpt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Connect" id="6y2-yX-fj3"/>
+                    <navigationItem key="navigationItem" title="Connect" id="6y2-yX-fj3">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="XPf-KA-Wi2">
+                            <connections>
+                                <action selector="showMenu:" destination="OSV-Jl-5cM" id="ppV-IB-1rq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VGl-0u-xeG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -165,17 +176,23 @@
         <!--Reward View Controller - Rewards-->
         <scene sceneID="8Ws-BW-n8O">
             <objects>
-                <viewController storyboardIdentifier="rewardConntroller" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6N3-9P-l8I" customClass="RewardViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="rewardController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6N3-9P-l8I" customClass="RewardViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="nN2-e4-bV8"/>
-                        <viewControllerLayoutGuide type="bottom" id="BWJ-KA-QT9"/>
+                        <viewControllerLayoutGuide type="top" id="Twf-KR-aON"/>
+                        <viewControllerLayoutGuide type="bottom" id="l1n-lR-iI6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ey0-gF-SKg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Rewards" id="rYK-iQ-VqI"/>
+                    <navigationItem key="navigationItem" title="Rewards" id="rYK-iQ-VqI">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="v5r-2P-efZ">
+                            <connections>
+                                <action selector="showMenu:" destination="6N3-9P-l8I" id="Qx0-P4-fLR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="det-jd-oOW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -186,15 +203,21 @@
             <objects>
                 <viewController storyboardIdentifier="profileController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UIv-9b-taJ" customClass="ProfileViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Xbv-IE-0rn"/>
-                        <viewControllerLayoutGuide type="bottom" id="pwD-6h-Zyr"/>
+                        <viewControllerLayoutGuide type="top" id="Xm3-3N-p6T"/>
+                        <viewControllerLayoutGuide type="bottom" id="uhC-M8-Bsu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="1Vv-ch-eV0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Profile" id="TAX-hQ-rp6"/>
+                    <navigationItem key="navigationItem" title="Profile" id="TAX-hQ-rp6">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="6C7-dV-aDf">
+                            <connections>
+                                <action selector="showMenu:" destination="UIv-9b-taJ" id="ing-Fd-xnE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dls-g0-H1i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -205,8 +228,8 @@
             <objects>
                 <viewController storyboardIdentifier="deviceController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="o5Y-rG-uv8" customClass="DeviceViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fXE-Lj-LsN"/>
-                        <viewControllerLayoutGuide type="bottom" id="VKG-be-KRY"/>
+                        <viewControllerLayoutGuide type="top" id="7kv-sh-vUT"/>
+                        <viewControllerLayoutGuide type="bottom" id="QzA-Wm-90I"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="XKP-t9-f7u">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -214,7 +237,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Manage Device" id="NBs-h8-5gh">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="dTY-wI-YRX">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="dTY-wI-YRX">
                             <connections>
                                 <action selector="showMenu:" destination="o5Y-rG-uv8" id="Gok-82-deB"/>
                             </connections>
@@ -235,8 +258,8 @@
             <objects>
                 <viewController id="g34-uL-rNx" customClass="AppsDevicesViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OUz-7q-ksX"/>
-                        <viewControllerLayoutGuide type="bottom" id="chm-eV-ZQa"/>
+                        <viewControllerLayoutGuide type="top" id="YJE-A8-cRT"/>
+                        <viewControllerLayoutGuide type="bottom" id="lh8-FL-UFf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tFp-6C-hhy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -270,8 +293,8 @@
             <objects>
                 <viewController id="856-R5-2id" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ZPw-jr-Vag"/>
-                        <viewControllerLayoutGuide type="bottom" id="ms8-vq-lLA"/>
+                        <viewControllerLayoutGuide type="top" id="17B-iI-I7v"/>
+                        <viewControllerLayoutGuide type="bottom" id="y0G-J4-R2y"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sqg-Ua-aej">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -285,6 +308,10 @@
             <point key="canvasLocation" x="1459" y="3879"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="menu" width="20" height="20"/>
+    </resources>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

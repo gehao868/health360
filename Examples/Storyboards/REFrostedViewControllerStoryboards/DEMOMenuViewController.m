@@ -8,7 +8,7 @@
 
 #import "DEMOMenuViewController.h"
 
-#import "DEMOHomeViewController.h"
+#import "DashBoardViewController.h"
 #import "TargetViewController.h"
 #import "DeviceViewController.h"
 #import "HealthDataViewController.h"
@@ -29,11 +29,11 @@
 {
     [super viewDidLoad];
     
-    self.tableView.separatorColor = [UIColor colorWithRed:150/255.0f green:161/255.0f blue:177/255.0f alpha:1.0f];
+    self.tableView.separatorColor = [UIColor colorWithRed:235/255.0f green:255/255.0f blue:170/255.0f alpha:1.0f];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     self.tableView.opaque = NO;
-    self.tableView.backgroundColor = [UIColor clearColor];
+    self.tableView.backgroundColor = [UIColor colorWithRed:70.0f/255.0f green:160.0f/255.0f blue:100.0f/255.0f alpha:1.0f];
     self.tableView.tableHeaderView = ({
         UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 184.0f)];
         UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 40, 100, 100)];
@@ -51,7 +51,7 @@
         label.text = @"Roman Efimov";
         label.font = [UIFont fontWithName:@"HelveticaNeue" size:21];
         label.backgroundColor = [UIColor clearColor];
-        label.textColor = [UIColor colorWithRed:62/255.0f green:68/255.0f blue:75/255.0f alpha:1.0f];
+        label.textColor = [UIColor colorWithRed:235/255.0f green:255/255.0f blue:170/255.0f alpha:1.0f];
         [label sizeToFit];
         label.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
         
@@ -67,7 +67,7 @@
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     cell.backgroundColor = [UIColor clearColor];
-    cell.textLabel.textColor = [UIColor colorWithRed:62/255.0f green:68/255.0f blue:75/255.0f alpha:1.0f];
+    cell.textLabel.textColor = [UIColor whiteColor];
     cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:17];
 }
 
@@ -105,7 +105,7 @@
     UINavigationController *navigationController = (UINavigationController *)self.frostedViewController.contentViewController;
     
     if (indexPath.section == 0 && indexPath.row == 0) {
-        DEMOHomeViewController *homeViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"homeController"];
+        DashBoardViewController *homeViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"homeController"];
         navigationController.viewControllers = @[homeViewController];
     } else if(indexPath.section == 0 && indexPath.row == 1) {
         TargetViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"secondController"];
@@ -160,7 +160,9 @@
     
     if (indexPath.section == 0) {
         NSArray *titles = @[@"DashBoard", @"Target", @"Health Data", @"Connect", @"Rewards", @"Profile", @"Manage Device"];
+        NSArray *images = @[[UIImage imageNamed:@"dashboard"],[UIImage imageNamed:@"target"],[UIImage imageNamed:@"connect"],[UIImage imageNamed:@"reward"],[UIImage imageNamed:@"profile"],[UIImage imageNamed:@"profile"],[UIImage imageNamed:@"profile"]];
         cell.textLabel.text = titles[indexPath.row];
+        cell.imageView.image = images[indexPath.row];
     }
     
 //    else {
