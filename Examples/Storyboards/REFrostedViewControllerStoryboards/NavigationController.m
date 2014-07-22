@@ -6,18 +6,20 @@
 //  Copyright (c) 2013 Roman Efimov. All rights reserved.
 //
 
-#import "DEMONavigationController.h"
+#import "NavigationController.h"
 
-@interface DEMONavigationController ()
+@interface NavigationController ()
 
 @end
 
-@implementation DEMONavigationController
+@implementation NavigationController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     [self.view addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureRecognized:)]];
+    
 }
 
 #pragma mark -

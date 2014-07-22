@@ -1,5 +1,5 @@
 //
-//  DEMOHomeViewController.h
+//  DEMOSecondViewController.h
 //  REFrostedViewControllerStoryboards
 //
 //  Created by Roman Efimov on 10/9/13.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "REFrostedViewController.h"
 
-@interface DEMOHomeViewController : UIViewController
+@interface TargetViewController : UIViewController
 
 - (IBAction)showMenu;
 

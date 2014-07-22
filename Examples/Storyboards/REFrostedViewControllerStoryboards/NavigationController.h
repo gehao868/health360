@@ -1,5 +1,5 @@
 //
-//  DEMOViewController.h
+//  DEMONavigationController.h
 //  REFrostedViewControllerStoryboards
 //
 //  Created by Roman Efimov on 10/9/13.
@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "REFrostedViewController.h"
 
-@interface DEMORootViewController : REFrostedViewController
+@interface NavigationController : UINavigationController
+
+- (void)panGestureRecognized:(UIPanGestureRecognizer *)sender;
 
 @end

@@ -9,7 +9,7 @@
 #import <Parse/Parse.h>
 #import "DEMOAppDelegate.h"
 
-@implementation DEMOAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
