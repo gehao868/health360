@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BE3856C197DE5C0002D27B4 /* FitbitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3856B197DE5C0002D27B4 /* FitbitViewController.m */; };
+		0BE3856D197DE737002D27B4 /* OAuthiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE38566197DE47F002D27B4 /* OAuthiOS.framework */; };
+		0BE3858D197E3522002D27B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE38576197DE7F4002D27B4 /* SystemConfiguration.framework */; };
+		0BE3858E197E366D002D27B4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE38583197E33C1002D27B4 /* AudioToolbox.framework */; };
+		0BE3858F197E366D002D27B4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3856F197DE7F4002D27B4 /* CFNetwork.framework */; };
+		0BE38590197E366D002D27B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032B8941805A10100064F85 /* CoreGraphics.framework */; };
+		0BE38591197E366D002D27B4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE38570197DE7F4002D27B4 /* CoreLocation.framework */; };
+		0BE38592197E366D002D27B4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE38571197DE7F4002D27B4 /* libz.dylib */; };
+		0BE38593197E366D002D27B4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE38572197DE7F4002D27B4 /* MobileCoreServices.framework */; };
+		0BE38594197E366D002D27B4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE38573197DE7F4002D27B4 /* QuartzCore.framework */; };
+		0BE38595197E366D002D27B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE38574197DE7F4002D27B4 /* Security.framework */; };
+		0BE38596197E366D002D27B4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE38575197DE7F4002D27B4 /* StoreKit.framework */; };
 		3032B8931805A10100064F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032B8921805A10100064F85 /* Foundation.framework */; };
-		3032B8951805A10100064F85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032B8941805A10100064F85 /* CoreGraphics.framework */; };
 		3032B8971805A10100064F85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032B8961805A10100064F85 /* UIKit.framework */; };
 		3032B89D1805A10100064F85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3032B89B1805A10100064F85 /* InfoPlist.strings */; };
 		3032B89F1805A10100064F85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B89E1805A10100064F85 /* main.m */; };
@@ -47,6 +58,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BE38566197DE47F002D27B4 /* OAuthiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OAuthiOS.framework; sourceTree = "<group>"; };
+		0BE38568197DE485002D27B4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		0BE3856A197DE5C0002D27B4 /* FitbitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitbitViewController.h; sourceTree = "<group>"; };
+		0BE3856B197DE5C0002D27B4 /* FitbitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitbitViewController.m; sourceTree = "<group>"; };
+		0BE3856E197DE7F4002D27B4 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		0BE3856F197DE7F4002D27B4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0BE38570197DE7F4002D27B4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0BE38571197DE7F4002D27B4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0BE38572197DE7F4002D27B4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0BE38573197DE7F4002D27B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0BE38574197DE7F4002D27B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0BE38575197DE7F4002D27B4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0BE38576197DE7F4002D27B4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0BE38581197DF09E002D27B4 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0BE38583197E33C1002D27B4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3032B88F1805A10100064F85 /* Health360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health360.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3032B8921805A10100064F85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3032B8941805A10100064F85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,7 +124,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3032B8951805A10100064F85 /* CoreGraphics.framework in Frameworks */,
+				0BE3858E197E366D002D27B4 /* AudioToolbox.framework in Frameworks */,
+				0BE3858F197E366D002D27B4 /* CFNetwork.framework in Frameworks */,
+				0BE38590197E366D002D27B4 /* CoreGraphics.framework in Frameworks */,
+				0BE38591197E366D002D27B4 /* CoreLocation.framework in Frameworks */,
+				0BE38592197E366D002D27B4 /* libz.dylib in Frameworks */,
+				0BE38593197E366D002D27B4 /* MobileCoreServices.framework in Frameworks */,
+				0BE38594197E366D002D27B4 /* QuartzCore.framework in Frameworks */,
+				0BE38595197E366D002D27B4 /* Security.framework in Frameworks */,
+				0BE38596197E366D002D27B4 /* StoreKit.framework in Frameworks */,
+				0BE3858D197E3522002D27B4 /* SystemConfiguration.framework in Frameworks */,
+				0BE3856D197DE737002D27B4 /* OAuthiOS.framework in Frameworks */,
 				3032B8971805A10100064F85 /* UIKit.framework in Frameworks */,
 				3032B8931805A10100064F85 /* Foundation.framework in Frameworks */,
 			);
@@ -140,6 +176,19 @@
 		3032B8911805A10100064F85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0BE38583197E33C1002D27B4 /* AudioToolbox.framework */,
+				0BE38581197DF09E002D27B4 /* CoreAudio.framework */,
+				0BE3856E197DE7F4002D27B4 /* AudioUnit.framework */,
+				0BE3856F197DE7F4002D27B4 /* CFNetwork.framework */,
+				0BE38570197DE7F4002D27B4 /* CoreLocation.framework */,
+				0BE38571197DE7F4002D27B4 /* libz.dylib */,
+				0BE38572197DE7F4002D27B4 /* MobileCoreServices.framework */,
+				0BE38573197DE7F4002D27B4 /* QuartzCore.framework */,
+				0BE38574197DE7F4002D27B4 /* Security.framework */,
+				0BE38575197DE7F4002D27B4 /* StoreKit.framework */,
+				0BE38576197DE7F4002D27B4 /* SystemConfiguration.framework */,
+				0BE38568197DE485002D27B4 /* Parse.framework */,
+				0BE38566197DE47F002D27B4 /* OAuthiOS.framework */,
 				3032B8921805A10100064F85 /* Foundation.framework */,
 				3032B8941805A10100064F85 /* CoreGraphics.framework */,
 				3032B8961805A10100064F85 /* UIKit.framework */,
@@ -228,6 +277,8 @@
 				7CFAB349197DBF5600CDF260 /* DeviceViewController.m */,
 				7CFAB34B197DCD9900CDF260 /* AppsDevicesViewController.h */,
 				7CFAB34C197DCD9900CDF260 /* AppsDevicesViewController.m */,
+				0BE3856A197DE5C0002D27B4 /* FitbitViewController.h */,
+				0BE3856B197DE5C0002D27B4 /* FitbitViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -333,6 +384,7 @@
 			files = (
 				3032B8CE1805A1BC00064F85 /* DEMOHomeViewController.m in Sources */,
 				3032B8E11805A21600064F85 /* REFrostedViewController.m in Sources */,
+				0BE3856C197DE5C0002D27B4 /* FitbitViewController.m in Sources */,
 				3032B9001805BC8E00064F85 /* RECommonFunctions.m in Sources */,
 				3032B8E31805A21600064F85 /* UIView+REFrostedViewController.m in Sources */,
 				3032B89F1805A10100064F85 /* main.m in Sources */,
@@ -399,7 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -438,7 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -472,6 +524,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "REFrostedViewControllerStoryboards/Health360-Prefix.pch";
 				INFOPLIST_FILE = "REFrostedViewControllerStoryboards/Health360-Info.plist";
@@ -486,6 +542,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "REFrostedViewControllerStoryboards/Health360-Prefix.pch";
 				INFOPLIST_FILE = "REFrostedViewControllerStoryboards/Health360-Info.plist";

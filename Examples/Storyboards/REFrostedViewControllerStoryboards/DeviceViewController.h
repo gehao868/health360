@@ -11,7 +11,6 @@
 
 @interface DeviceViewController : UIViewController
 
-
 - (IBAction)showMenu:(id)sender;
 
 @end

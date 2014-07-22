@@ -14,4 +14,16 @@
 
 - (IBAction)fibitAction:(id)sender;
 
+// Handles the results of a successful authentication
+- (void)didReceiveOAuthIOResponse:(OAuthIORequest *)request;
+
+// Handle errors in the case of an unsuccessful authentication
+- (void)didFailWithOAuthIOError:(NSError *)error;
+
+- (void)requestFromFitbit:(OAuthIORequest *)request;
+    
+- (void)getUserInfo:(OAuthIORequest *)request;
+
+- (void)getSteps:(OAuthIORequest *)request;
+
 @end
