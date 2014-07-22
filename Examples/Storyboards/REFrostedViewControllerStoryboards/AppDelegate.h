@@ -1,5 +1,5 @@
 //
-//  DEMOMenuViewController.h
+//  DEMOAppDelegate.h
 //  REFrostedViewControllerStoryboards
 //
 //  Created by Roman Efimov on 10/9/13.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "REFrostedViewController.h"
 
-@interface DEMOMenuViewController : UITableViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

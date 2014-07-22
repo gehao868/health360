@@ -12,9 +12,9 @@
 		3032B8971805A10100064F85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032B8961805A10100064F85 /* UIKit.framework */; };
 		3032B89D1805A10100064F85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3032B89B1805A10100064F85 /* InfoPlist.strings */; };
 		3032B89F1805A10100064F85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B89E1805A10100064F85 /* main.m */; };
-		3032B8A31805A10100064F85 /* DEMOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8A21805A10100064F85 /* DEMOAppDelegate.m */; };
+		3032B8A31805A10100064F85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8A21805A10100064F85 /* AppDelegate.m */; };
 		3032B8A61805A10100064F85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3032B8A41805A10100064F85 /* Main.storyboard */; };
-		3032B8A91805A10100064F85 /* DEMORootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8A81805A10100064F85 /* DEMORootViewController.m */; };
+		3032B8A91805A10100064F85 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8A81805A10100064F85 /* RootViewController.m */; };
 		3032B8AB1805A10100064F85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3032B8AA1805A10100064F85 /* Images.xcassets */; };
 		3032B8B21805A10100064F85 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032B8B11805A10100064F85 /* XCTest.framework */; };
 		3032B8B31805A10100064F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3032B8921805A10100064F85 /* Foundation.framework */; };
@@ -22,13 +22,13 @@
 		3032B8BC1805A10100064F85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3032B8BA1805A10100064F85 /* InfoPlist.strings */; };
 		3032B8BE1805A10100064F85 /* REFrostedViewControllerStoryboardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8BD1805A10100064F85 /* REFrostedViewControllerStoryboardsTests.m */; };
 		3032B8CE1805A1BC00064F85 /* DashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8CD1805A1BC00064F85 /* DashBoardViewController.m */; };
-		3032B8D11805A1D200064F85 /* DEMOMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8D01805A1D200064F85 /* DEMOMenuViewController.m */; };
+		3032B8D11805A1D200064F85 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8D01805A1D200064F85 /* MenuViewController.m */; };
 		3032B8E01805A21600064F85 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8D71805A21600064F85 /* REFrostedContainerViewController.m */; };
 		3032B8E11805A21600064F85 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8D91805A21600064F85 /* REFrostedViewController.m */; };
 		3032B8E21805A21600064F85 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8DB1805A21600064F85 /* UIImage+REFrostedViewController.m */; };
 		3032B8E31805A21600064F85 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8DD1805A21600064F85 /* UIView+REFrostedViewController.m */; };
 		3032B8E41805A21600064F85 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8DF1805A21600064F85 /* UIViewController+REFrostedViewController.m */; };
-		3032B8E71805A26500064F85 /* DEMONavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8E61805A26500064F85 /* DEMONavigationController.m */; };
+		3032B8E71805A26500064F85 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8E61805A26500064F85 /* NavigationController.m */; };
 		3032B8EA1805A4BF00064F85 /* TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8E91805A4BF00064F85 /* TargetViewController.m */; };
 		3032B8FD1805AB5600064F85 /* avatar@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3032B8FC1805AB5600064F85 /* avatar@2x.jpg */; };
 		3032B9001805BC8E00064F85 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B8FF1805BC8E00064F85 /* RECommonFunctions.m */; };
@@ -59,11 +59,11 @@
 		3032B89C1805A10100064F85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3032B89E1805A10100064F85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3032B8A01805A10100064F85 /* Health360-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Health360-Prefix.pch"; sourceTree = "<group>"; };
-		3032B8A11805A10100064F85 /* DEMOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEMOAppDelegate.h; sourceTree = "<group>"; };
-		3032B8A21805A10100064F85 /* DEMOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEMOAppDelegate.m; sourceTree = "<group>"; };
+		3032B8A11805A10100064F85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3032B8A21805A10100064F85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3032B8A51805A10100064F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3032B8A71805A10100064F85 /* DEMORootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEMORootViewController.h; sourceTree = "<group>"; };
-		3032B8A81805A10100064F85 /* DEMORootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEMORootViewController.m; sourceTree = "<group>"; };
+		3032B8A71805A10100064F85 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3032B8A81805A10100064F85 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		3032B8AA1805A10100064F85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3032B8B01805A10100064F85 /* Health360Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Health360Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3032B8B11805A10100064F85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -72,8 +72,8 @@
 		3032B8BD1805A10100064F85 /* REFrostedViewControllerStoryboardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewControllerStoryboardsTests.m; sourceTree = "<group>"; };
 		3032B8CC1805A1BC00064F85 /* DashBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoardViewController.h; sourceTree = "<group>"; };
 		3032B8CD1805A1BC00064F85 /* DashBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoardViewController.m; sourceTree = "<group>"; };
-		3032B8CF1805A1D200064F85 /* DEMOMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOMenuViewController.h; sourceTree = "<group>"; };
-		3032B8D01805A1D200064F85 /* DEMOMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOMenuViewController.m; sourceTree = "<group>"; };
+		3032B8CF1805A1D200064F85 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		3032B8D01805A1D200064F85 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		3032B8D61805A21600064F85 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = "<group>"; };
 		3032B8D71805A21600064F85 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedContainerViewController.m; sourceTree = "<group>"; };
 		3032B8D81805A21600064F85 /* REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedViewController.h; sourceTree = "<group>"; };
@@ -84,8 +84,8 @@
 		3032B8DD1805A21600064F85 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
 		3032B8DE1805A21600064F85 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
 		3032B8DF1805A21600064F85 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
-		3032B8E51805A26500064F85 /* DEMONavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMONavigationController.h; sourceTree = "<group>"; };
-		3032B8E61805A26500064F85 /* DEMONavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMONavigationController.m; sourceTree = "<group>"; };
+		3032B8E51805A26500064F85 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		3032B8E61805A26500064F85 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		3032B8E81805A4BF00064F85 /* TargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetViewController.h; sourceTree = "<group>"; };
 		3032B8E91805A4BF00064F85 /* TargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetViewController.m; sourceTree = "<group>"; };
 		3032B8FC1805AB5600064F85 /* avatar@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avatar@2x.jpg"; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				3032B8D51805A21600064F85 /* REFrostedViewController */,
-				3032B8981805A10100064F85 /* REFrostedViewControllerStoryboards */,
+				3032B8981805A10100064F85 /* HealthAppControllerStoryboards */,
 				3032B8B71805A10100064F85 /* REFrostedViewControllerStoryboardsTests */,
 				3032B8911805A10100064F85 /* Frameworks */,
 				3032B8901805A10100064F85 /* Products */,
@@ -160,17 +160,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3032B8981805A10100064F85 /* REFrostedViewControllerStoryboards */ = {
+		3032B8981805A10100064F85 /* HealthAppControllerStoryboards */ = {
 			isa = PBXGroup;
 			children = (
 				3032B8FB1805AB4600064F85 /* Controllers */,
-				3032B8A11805A10100064F85 /* DEMOAppDelegate.h */,
-				3032B8A21805A10100064F85 /* DEMOAppDelegate.m */,
+				3032B8A11805A10100064F85 /* AppDelegate.h */,
+				3032B8A21805A10100064F85 /* AppDelegate.m */,
 				3032B8FC1805AB5600064F85 /* avatar@2x.jpg */,
 				3032B8A41805A10100064F85 /* Main.storyboard */,
 				3032B8AA1805A10100064F85 /* Images.xcassets */,
 				3032B8991805A10100064F85 /* Supporting Files */,
 			);
+			name = HealthAppControllerStoryboards;
 			path = REFrostedViewControllerStoryboards;
 			sourceTree = "<group>";
 		};
@@ -226,14 +227,14 @@
 		3032B8FB1805AB4600064F85 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3032B8A71805A10100064F85 /* DEMORootViewController.h */,
-				3032B8A81805A10100064F85 /* DEMORootViewController.m */,
+				3032B8A71805A10100064F85 /* RootViewController.h */,
+				3032B8A81805A10100064F85 /* RootViewController.m */,
 				3032B8CC1805A1BC00064F85 /* DashBoardViewController.h */,
 				3032B8CD1805A1BC00064F85 /* DashBoardViewController.m */,
-				3032B8CF1805A1D200064F85 /* DEMOMenuViewController.h */,
-				3032B8D01805A1D200064F85 /* DEMOMenuViewController.m */,
-				3032B8E51805A26500064F85 /* DEMONavigationController.h */,
-				3032B8E61805A26500064F85 /* DEMONavigationController.m */,
+				3032B8CF1805A1D200064F85 /* MenuViewController.h */,
+				3032B8D01805A1D200064F85 /* MenuViewController.m */,
+				3032B8E51805A26500064F85 /* NavigationController.h */,
+				3032B8E61805A26500064F85 /* NavigationController.m */,
 				3032B8E81805A4BF00064F85 /* TargetViewController.h */,
 				3032B8E91805A4BF00064F85 /* TargetViewController.m */,
 				7CFAB348197DBF5600CDF260 /* DeviceViewController.h */,
@@ -359,17 +360,17 @@
 				7CFAB350197DEF4500CDF260 /* HealthDataViewController.m in Sources */,
 				7CFAB356197DEFA600CDF260 /* RewardViewController.m in Sources */,
 				3032B89F1805A10100064F85 /* main.m in Sources */,
-				3032B8A91805A10100064F85 /* DEMORootViewController.m in Sources */,
+				3032B8A91805A10100064F85 /* RootViewController.m in Sources */,
 				3032B8EA1805A4BF00064F85 /* TargetViewController.m in Sources */,
 				3032B8E21805A21600064F85 /* UIImage+REFrostedViewController.m in Sources */,
-				3032B8D11805A1D200064F85 /* DEMOMenuViewController.m in Sources */,
+				3032B8D11805A1D200064F85 /* MenuViewController.m in Sources */,
 				7CFAB34D197DCD9900CDF260 /* AppsDevicesViewController.m in Sources */,
-				3032B8A31805A10100064F85 /* DEMOAppDelegate.m in Sources */,
+				3032B8A31805A10100064F85 /* AppDelegate.m in Sources */,
 				3032B8E41805A21600064F85 /* UIViewController+REFrostedViewController.m in Sources */,
 				7CFAB353197DEF9800CDF260 /* ConnectViewController.m in Sources */,
 				3032B8E01805A21600064F85 /* REFrostedContainerViewController.m in Sources */,
 				7CFAB34A197DBF5600CDF260 /* DeviceViewController.m in Sources */,
-				3032B8E71805A26500064F85 /* DEMONavigationController.m in Sources */,
+				3032B8E71805A26500064F85 /* NavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

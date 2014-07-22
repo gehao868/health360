@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Roman Efimov. All rights reserved.
 //
 
-#import "DEMOMenuViewController.h"
+#import "MenuViewController.h"
 
 #import "DashBoardViewController.h"
 #import "TargetViewController.h"
@@ -19,11 +19,11 @@
 #import "UIViewController+REFrostedViewController.h"
 
 
-@interface DEMOMenuViewController ()
+@interface MenuViewController ()
 
 @end
 
-@implementation DEMOMenuViewController
+@implementation MenuViewController
 
 - (void)viewDidLoad
 {
