@@ -7,6 +7,7 @@
 //
 
 #import "DashBoardViewController.h"
+#import "ConnectViewController.h"
 
 @interface DashBoardViewController ()
 

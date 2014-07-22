@@ -38,6 +38,7 @@
 		7CFAB353197DEF9800CDF260 /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFAB352197DEF9800CDF260 /* ConnectViewController.m */; };
 		7CFAB356197DEFA600CDF260 /* RewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFAB355197DEFA600CDF260 /* RewardViewController.m */; };
 		7CFAB359197DEFBE00CDF260 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFAB358197DEFBE00CDF260 /* ProfileViewController.m */; };
+		7CFAB35D197E1D4300CDF260 /* CircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFAB35C197E1D4300CDF260 /* CircularProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,8 @@
 		7CFAB355197DEFA600CDF260 /* RewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardViewController.m; sourceTree = "<group>"; };
 		7CFAB357197DEFBE00CDF260 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		7CFAB358197DEFBE00CDF260 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		7CFAB35B197E1D4300CDF260 /* CircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularProgressView.h; sourceTree = "<group>"; };
+		7CFAB35C197E1D4300CDF260 /* CircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,7 @@
 		3032B8861805A10100064F85 = {
 			isa = PBXGroup;
 			children = (
+				7CFAB35A197E1D2000CDF260 /* CircularProgressView */,
 				3032B8D51805A21600064F85 /* REFrostedViewController */,
 				3032B8981805A10100064F85 /* HealthAppControllerStoryboards */,
 				3032B8B71805A10100064F85 /* REFrostedViewControllerStoryboardsTests */,
@@ -253,6 +257,15 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
+		7CFAB35A197E1D2000CDF260 /* CircularProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				7CFAB35B197E1D4300CDF260 /* CircularProgressView.h */,
+				7CFAB35C197E1D4300CDF260 /* CircularProgressView.m */,
+			);
+			name = CircularProgressView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -366,6 +379,7 @@
 				3032B8D11805A1D200064F85 /* MenuViewController.m in Sources */,
 				7CFAB34D197DCD9900CDF260 /* AppsDevicesViewController.m in Sources */,
 				3032B8A31805A10100064F85 /* AppDelegate.m in Sources */,
+				7CFAB35D197E1D4300CDF260 /* CircularProgressView.m in Sources */,
 				3032B8E41805A21600064F85 /* UIViewController+REFrostedViewController.m in Sources */,
 				7CFAB353197DEF9800CDF260 /* ConnectViewController.m in Sources */,
 				3032B8E01805A21600064F85 /* REFrostedContainerViewController.m in Sources */,
